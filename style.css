@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+li, a , button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15.5px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    background-color: rgba(0,0,0, 0.4);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+span{
+    margin-right: auto; 
+}
+span a{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color:#0088a9;
+}
+button{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    padding: 9px 25px;
+    background-color: rgb(220, 226, 228);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+background-color: rgba(12, 81, 209, 0.8);
+color: white;
+}
+
+body{
+
+    background-image: url(d3d4eba1db502037614888a1baf1c39b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+    .container{
+     display: flex;
+     position: relative;
+
+    }
+    .gap{
+        position: relative;
+        top:210px;
+        left: 100px;
+        font-family:'Montserrat', sans-serif ;
+        color: #edf0f1;
+    }
+    #hello{
+        font-weight: 200;
+        font-size: 26px;
+    }
+    p#hello span{
+        background-color:rgb(9, 11, 117) ;
+        padding: 7px;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    div#rasm{
+        width: 100%;
+        
+    }
+    img{
+        border: 14px solid white; 
+        position: relative;
+        right: -300px;
+        top:130px;
+        width:310px;
+        height:450px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    #btn1{
+        font-size: x-large;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+    #btn2{
+        font-weight: 700;
+        font-size: x-large;
+    }
+    
+
+    
+
+
